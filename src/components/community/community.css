@@ -1,0 +1,139 @@
+.community__section {
+  padding-top: 4rem;
+  padding-bottom: 5rem;
+  display: flex;
+  justify-content: space-between;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.community__head {
+  color: #5699ff;
+  font-size: 16px;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: 32px;
+  word-wrap: break-word;
+}
+
+.community__heading {
+  color: white;
+  font-size: 56px;
+  font-family: Poppins;
+  font-weight: 700;
+  word-wrap: break-word;
+  
+}
+
+.community__paragraph {
+  color: #ebebeb;
+  font-size: 16px;
+  font-family: Poppins;
+  line-height: 32px;
+  word-wrap: break-word;
+}
+
+.community__right__rectangle:hover{
+  background-color: #5699ff;
+}
+.community__right__rectangle{
+  margin-top: 2rem;
+  display: flex;
+  padding: 1rem;
+  background-color: #081956;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.community__right__second{
+  margin-left: 2rem;
+  background-color: #071544;
+  opacity: 1;
+}
+
+.community__right__third{
+  background-color: #051240;
+  margin-left: 4rem;
+  opacity: 0.5;
+}
+
+.community__right__rectangle__text{
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.3rem;
+  margin-left: 1rem;
+}
+
+.commmunity__button{
+  background-color: #1E50FF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-top: 2rem;
+}
+
+.community__right__rectangle__text__dot{
+  display: flex;
+  padding-left: 10rem;
+}
+
+.commuity__left{
+  text-align: left;
+  width: 40%;
+}
+
+.commmunity__button:hover{
+  background-color: rgb(170,0,255);
+}
+@media screen and (max-width: 900px) {
+  .community__section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 3rem;
+  }  
+
+  .community__right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .commuity__left{
+    text-align: left;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .community__right__third{
+    margin-left: 0rem;
+  }
+
+  .community__right{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-left: 1rem; 
+    box-sizing: border-box; 
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .community__right__second{
+    margin-left: 0rem;
+   margin-top: 2rem;
+  }
+
+  .community__right__rectangle__text__dot{
+    display: none;
+  }
+  
+}
